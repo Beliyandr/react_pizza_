@@ -18,7 +18,7 @@ export const Categories = () => {
             onClick={() => onClickCategory(index)}
             className={activeIndex === index ? "active" : ""}
           >
-            {value + index}
+            {value}
           </li>
         ))}
       </ul>
